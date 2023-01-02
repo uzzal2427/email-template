@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(105, 101, 101, 0.61);
+}
+.all{
+    background-color: rgb(241, 230, 230);
+    padding: 2%;
+    margin: 3%; 
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 100%;
+    height: 3.6rem;
+}
+.icon a{
+    padding: 0;
+    margin: 0;
+}
+.icon img{
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+.baner img{
+    width: 100%;
+}
+.one{
+    padding: 2%;
+    margin: 2%;
+    box-sizing: border-box;
+}
+.one h1{
+    font-weight: bold;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn{
+    float: right;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.btn a:hover{
+    background-color: rgba(63, 60, 60, 0.37);
+    color: rgb(255, 251, 251);
+}
+.line{
+    width: 95%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+.two2{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.two{
+    padding: 20px;
+    margin: 20px;
+}
+.two h1{
+    margin: 10px;
+    font-size: 20px; 
+}
+.two img{
+    padding: 10px;
+    width: 50%;
+}
+.two p{
+    padding: 10px;
+    font-size: 20px;
+}
+.two a{
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.last{
+    padding: 20px;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+}
+.last p{
+    font-size: 35px;
+}
